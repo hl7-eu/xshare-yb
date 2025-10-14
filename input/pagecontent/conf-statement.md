@@ -56,7 +56,7 @@
         <td>HL7 FHIR</td>
     </tr>
     <tr style="text-align: center;">
-        <td><img src="radiology.png" alt="Digital Imaging Report icon" style="width:30px; vertical-align:middle;"></td>
+        <td><img src="radiology.png" alt="Imaging Report icon" style="width:30px; vertical-align:middle;"></td>
         <td>Imaging Reports</td>
         <td></td>
         <td></td>
