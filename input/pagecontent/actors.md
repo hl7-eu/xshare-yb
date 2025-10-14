@@ -137,14 +137,14 @@ A Yellow Button implementation realizing the *xShare Yellow Button Provider* SHA
 
 The *xShare Yellow Button Link Provider* is a software that enables users to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - shared through SMART Health Links.
 
-This role specializes the [SMART Health Links Sharing Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#actors) actor.
+This role specializes the [SMART Health Links Sharing Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#actors) actor.
 
 #### Conformance
 
 *xShare Yellow Button Link Provider* shall:
 
 * be grouped with the *xShare Yellow Button Content Creator*
-* conform with the [SMART Health Links Sharing Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#actors) actor.
+* conform with the [SMART Health Links Sharing Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#actors) actor.
 
 ### xShare Yellow Button Link Consumer
 
@@ -152,11 +152,11 @@ A Yellow Button implementation realizing the *xShare Yellow Button Consumer* SHA
 
 The *xShare Yellow Button Link Consumer* is a software tSoftware that enables users to receive and access health information - as listed in the [Yellow Button Information view](content.html) page - shared through SMART Health Links.
 
-This role specializes the [SMART Health Links Receiving Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#actors) actor.
+This role specializes the [SMART Health Links Receiving Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#actors) actor.
 
 #### Conformance
 
 *xShare Yellow Button Link Provider* shall:
 
 * be grouped with the *xShare Yellow Button Content Consumer*
-* conform with the [SMART Health Links Receiving Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#actors) actor.
+* conform with the [SMART Health Links Receiving Application](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#actors) actor.

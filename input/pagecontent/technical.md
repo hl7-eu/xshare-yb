@@ -125,7 +125,7 @@ The xShare Yellow Button Provider generates a SMART Health Link URI.
 
 * Yellow button adopters implementing *Generate SHL URI* shall act as [xShare Yellow Button Link Provider](actors.html#xshare-yellow-button-link-provider)
 
-* The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
+* The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
 
 
 #### Process SHL URI
@@ -136,7 +136,7 @@ The xShare Yellow Button Provider process a SMART Health Link URI.
 
 * Yellow button adopters implementing *Process SHL URI* shall act as [xShare Yellow Button Link Consumer](actors.html#xshare-yellow-button-link-consumer)
 
-* The SMART Health Link URI is processed in conformance with the [SMART Health Links Receiving Application processes a SMART Health Link](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-receiving-application-processes-a-smart-health-link) specifications.
+* The SMART Health Link URI is processed in conformance with the [SMART Health Links Receiving Application processes a SMART Health Link](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-links-receiving-application-processes-a-smart-health-link) specifications.
 
 
 #### Request SHL Manifest
@@ -150,7 +150,7 @@ The xShare Yellow Button Link Consumer retrieves a SMART Health Links's manifest
 
 * Yellow button adopters implementing *Request SHL Manifest* as *Consumer* shall act as xShare Yellow Button Link Consumer
 
-* The SMART Health Links's manifest is retrieved in conformance with [SMART Health Link Manifest Request](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-link-manifest-request)
+* The SMART Health Links's manifest is retrieved in conformance with [SMART Health Link Manifest Request](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-link-manifest-request)
 
 * The SMART Health Links's manifest shall conform with at least one of the content specifications listed in the [Yellow Button Information view](content.html) page.
 
@@ -160,6 +160,6 @@ The xShare Yellow Button Link Consumer retrieves a SMART Health Links's manifest
 
 * Yellow button adopters implementing *Request SHL Manifest* as *Creator*  shall act as xShare Yellow Button Link Provider
 
-* The SMART Health Links's manifest is provided in conformance with [SMART Health Link Manifest Request](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-link-manifest-request)
+* The SMART Health Links's manifest is provided in conformance with [SMART Health Link Manifest Request](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-link-manifest-request)
 
 * The SMART Health Links's manifest shall conform with at least one of the content specifications listed in the [Yellow Button Information view](content.html) page.

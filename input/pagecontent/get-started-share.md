@@ -53,11 +53,13 @@ Acting as [**xShare Yellow Button Content Creator**](actors.html#xshare-yellow-b
 | <img src="experiment-results.png" alt="MyHealth@EU Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [MyHealth@EU Laboratory Report](https://x-bundles.ehr-exchange-format.eu/myh-eu-lab-cnt/content.html) | [MyHealth@EU Laboratory Report FHIR IG v0.1.1](https://fhir.ehdsi.eu/laboratory)
 
 
-Early implementers might be interested in piloting the following 'frozen' specifications
+Early implementers might be interested in 
+
+(a) piloting the following 'frozen' specifications
 
 |  | xBundle  | HL7 FHIR IG |
 |------|-------------|-------------|
-| <img src="hospital.png" alt="Hospital Discharge Report icon" style="width:30px; vertical-align:middle;"> | [Hospital Discharge Report](https://x-bundles.ehr-exchange-format.eu/hdr-content/content.html) | [HL7 Europe Hospital Discharge Report FHIR IG (0.1.0-ballot)](https://hl7.eu/fhir/hdr/)
+| <img src="hospital.png" alt="Hospital Discharge Report icon" style="width:30px; vertical-align:middle;"> | [Hospital Discharge Report](https://x-bundles.ehr-exchange-format.eu/hdr-content/content.html) | [HL7 Europe Hospital Discharge Report FHIR IG v0.1.0-ballot](https://hl7.eu/fhir/hdr/)
 |------|-------------|-------------|
 | <img src="prescription.png" alt="Medicine Prescription and Dispense icon" style="width:30px; vertical-align:middle;"> | [Medicine Prescription and Dispense](https://x-bundles.ehr-exchange-format.eu/mpd-content/content.html) | [HL7 EU Medication Prescription and Dispense FHIR IG v0.1.0-ballot](https://hl7.eu/fhir/mpd/)
 |------|-------------|-------------|
@@ -67,7 +69,7 @@ Early implementers might be interested in piloting the following 'frozen' specif
 |------|-------------|-------------|
 
 
-Early implementers might be interested in piloting the following on development specifications
+(a) trying the following  on development specification
 
 |  | xBundle  | HL7 FHIR IG |
 |------|-------------|-------------|
@@ -78,11 +80,11 @@ Early implementers might be interested in piloting the following on development 
 #### Smart Health Link specifications
 Acting as [**xShare Yellow Button Link Provider**](actors.html#xshare-yellow-button-link-provider):
 
-* The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
+* The SMART Health Link URI is generated in conformance with the [SMART Health Links Sharing Application Generates a SMART Health Link URI](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-links-sharing-application-generates-a-smart-health-link-uri) specifications.
 
 Acting as [**xShare Yellow Button Link Consumer**](actors.html#xshare-yellow-button-link-consumer):
 
-* The SMART Health Link URI is processed in conformance with the [SMART Health Links Receiving Application processes a SMART Health Link](https://hl7.org/fhir/uv/smart-health-cards-and-links/2024Sep/links-specification.html#smart-health-links-receiving-application-processes-a-smart-health-link) specifications.
+* The SMART Health Link URI is processed in conformance with the [SMART Health Links Receiving Application processes a SMART Health Link](https://hl7.org/fhir/uv/smart-health-cards-and-links/links-specification.html#smart-health-links-receiving-application-processes-a-smart-health-link) specifications.
 
 
 ---
