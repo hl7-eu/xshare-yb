@@ -77,6 +77,8 @@ pages:
     title: Declare and Prove Your Conformance
   conf-statement.md:
     title: Conformance Statement (example)
+  changes.md:
+    title: Change Log
 
 #  implementation.md:
 #    title: Implementation Considerations
@@ -128,7 +130,9 @@ menu:
     Example Conformance Statement: conf-statement.html
     Reference Tools: yb_tools.html  
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
-  About: about.html
+  About: 
+    About: about.html
+    Change Log: changes.html
 
   # Button: button.html
  # MPD: 
