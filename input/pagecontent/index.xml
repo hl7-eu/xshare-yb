@@ -1,28 +1,37 @@
 <div xmlns="http://www.w3.org/1999/xhtml"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd" lang="en">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd"
+  lang="en">
 
   <blockquote class="dragon">
     <p>This specification is subject to continuous maintenance.</p>
-    <p>Revisions and extensions may be introduced over time, including updates to the business scenarios and to the reference technical specification.</p>
-    <p><b>Readers should be aware that changes may occur and are encouraged to stay informed about the latest developments.</b></p>
+    <p>Revisions and extensions may be introduced over time, including updates to the business
+      scenarios and to the reference technical specification.</p>
+    <p>
+      <b>Readers should be aware that changes may occur and are encouraged to stay informed about
+        the latest developments.</b>
+    </p>
   </blockquote>
 
-  <a name="scope"></a>
+  <a name="scope"> </a>
   <h3>Scope</h3>
-  <p>
-   This guide provides instructions to help you understand, implement, conform to, and label your product in accordance with the <strong>xShare Yellow Button</strong>.
-  </p>
-  <p>
-More contextual information about the xShare Yellow Button, including tools and supporting material can be found at the <a href="https://x-bundles.ehr-exchange-format.eu/usecases/usecases.html">X-Bundle Registry</a>.
-  </p>
+  <p> This guide provides instructions to help you understand, implement, conform to, and label your
+    product in accordance with the <strong>xShare Yellow Button</strong>. </p>
+  <p> More contextual information about the xShare Yellow Button, including tools and supporting
+    material can be found at the <a
+      href="https://x-bundles.ehr-exchange-format.eu/usecases/usecases.html">X-Bundle Registry</a>. </p>
 
 
-  <a name="purpose"></a>
+  <a name="purpose"> </a>
   <h3>Purpose</h3>
-  <p>The <strong>xShare Yellow Button is a simple way to share your data with a single click</strong>.</p>
-  <p>This guide explains how to understand, implement, and conform to the xShare Yellow Button specification.</p>
-  <p>It is intended for developers, implementers, and testers of systems that use the xShare Yellow Button.</p>
-  <p>The xShare Yellow Button enables natural persons to share their health data in European Electronic Health Record Exchange Format (EEHRxF) by offering three main capabilities:</p>
+  <p>The <strong>xShare Yellow Button is a simple way to share your data with a single click</strong>
+    .</p>
+  <p>This guide explains how to understand, implement, and conform to the xShare Yellow Button
+    specification.</p>
+  <p>It is intended for developers, implementers, and testers of systems that use the xShare Yellow
+    Button.</p>
+  <p>The xShare Yellow Button enables natural persons to share their health data in European
+    Electronic Health Record Exchange Format (EEHRxF) by offering three main capabilities:</p>
   <ul>
     <li>The download of their health data</li>
     <li>The health data sharing by using a one-time link</li>
@@ -42,11 +51,12 @@ More contextual information about the xShare Yellow Button, including tools and 
   </ul>
 
 
-
-  <a name="get-started"></a>
+  <a name="get-started">  </a>
   <h3>Get Started</h3>
 
-  <p>New readers are encouraged to begin with the one page xShare Yellow Button "get started" pages explaining in a simple and concise way what do you need to do to implement and prove conformance to this guide:</p>
+  <p>New readers are encouraged to begin with the one page xShare Yellow Button "get started" pages
+    explaining in a simple and concise way what do you need to do to implement and prove conformance
+    to this guide:</p>
 
   <ul>
     <li>
@@ -58,41 +68,47 @@ More contextual information about the xShare Yellow Button, including tools and 
   </ul>
 
 
-  <a name="get-more"></a>
+  <a name="get-more"> </a>
   <h3>Understand this Guide</h3>
 
-  <p>Readers that would like to get more from this specifications are encouraged to familiarize themselves with how information is organized in this guide.</p>
-    <p>The information in this guide is structured according to the BDAT model (Business, Data, Application, and Technology), as illustrated in the figure below.</p>
+  <p>Readers that would like to get more from this specifications are encouraged to familiarize
+    themselves with how information is organized in this guide.</p>
+  <p>The information in this guide is structured according to the BDAT model (Business, Data,
+    Application, and Technology), as illustrated in the figure below.</p>
 
   <div>
-  <p> </p>
-    {% include bdat.svg %}
-    <p><caption>Fig. 1: Navigating this guide</caption></p>  
+    <p> </p>
+    <figure> {% include bdat.svg %} <figcaption>Fig. 1: Navigating this guide</figcaption>
+
+    </figure>
   </div>
 
   <p>Where: </p>
   <ul>
     <li>
       <p>The<a href="business.html">
-        <strong> business domain </strong>
-      </a>describes the business goals, processes and rules the xShare Yellow Button is referring to.</p>
-    <p>It substantially describes why, how and where to use the xShare Yellow Button, from a users perspective.</p>
-  </li>
-  <li>
-    The<a href="content.html">
-    <strong> data domain </strong>
-  </a>describes the data model and the data exchange format.
-</li>
-<li>
-    The <a href="application.html">
-  <strong>application domain</strong>
-</a> describes - in a implementation indipendent form - what are the (software) components involved and how they interact, collaborate, or are coordinated. It also provides an overview of the system architecture.
-</li>
-<li>
-<p>The <a href="technical.html">
-  <strong>technology domain</strong>
-</a> describes the technology stack and the infrastructure required to support the xShare Yellow Button. This includes technical standards, specifications, and security considerations.</p>
-<p>This is where implemantable specifications are described.</p>
-</li>
-</ul>
+          <strong> business domain </strong>
+        </a>describes the business goals, processes and
+        rules the xShare Yellow Button is referring to.</p>
+      <p>It substantially describes why, how and where to use the xShare Yellow Button, from a users
+        perspective.</p>
+    </li>
+    <li> The<a href="content.html">
+        <strong> data domain </strong>
+      </a>describes the data model and the data exchange
+      format. </li>
+    <li> The <a href="application.html">
+        <strong>application domain</strong>
+      </a> describes - in a implementation indipendent
+      form - what are the (software) components involved and how they interact, collaborate, or are
+      coordinated. It also provides an overview of the system architecture. </li>
+    <li>
+      <p>The <a href="technical.html">
+          <strong>technology domain</strong>
+        </a> describes the technology stack and the
+        infrastructure required to support the xShare Yellow Button. This includes technical
+        standards, specifications, and security considerations.</p>
+      <p>This is where implemantable specifications are described.</p>
+    </li>
+  </ul>
 </div>
