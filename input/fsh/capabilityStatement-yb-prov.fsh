@@ -24,7 +24,7 @@ Usage: #definition
 * document[=].documentation = "The provider can publish EU Laboratory Report documents via download or Smart Health Link."
 
 * document[+].mode = #producer
-* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips|2.0.0"
 * document[=].documentation = "The provider can publish IPS documents via download or Smart Health Link."
 
 * document[+].mode = #producer

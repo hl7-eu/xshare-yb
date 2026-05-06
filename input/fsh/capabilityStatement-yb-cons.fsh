@@ -25,7 +25,7 @@ Usage: #definition
 * document[=].documentation = "The consumer can interpret or display EU Laboratory Report documents obtained via download or Smart Health Link."
 
 * document[+].mode = #consumer
-* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"
+* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips|2.0.0"
 * document[=].documentation = "The consumer can interpret or display IPS documents obtained via download or Smart Health Link."
 
 * document[+].mode = #consumer
