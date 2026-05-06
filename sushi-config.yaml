@@ -22,13 +22,11 @@ publisher:
 dependencies:
   hl7.fhir.uv.ips: 2.0.0
   hl7.fhir.uv.smart-health-cards-and-links: 1.0.0
-  hl7.fhir.eu.laboratory: 2.0.0
-  myhealth.eu.fhir.laboratory: 9.1.1
-#  hl7.fhir.extensions.r5: 4.0.1
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
+  hl7.fhir.eu.laboratory: current
+  # hl7.fhir.eu.laboratory: 2.0.0
+  # myhealth.eu.fhir.laboratory: 9.1.1
+  myhealth.eu.fhir.laboratory: current 
+
 #
 #
 # The pages property corresponds to IG.definition.page. SUSHI can
