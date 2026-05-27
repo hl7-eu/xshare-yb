@@ -1,5 +1,15 @@
 
 
+### current build changes
+
+#### HL7 Europe Implementation Guides
+- Updated HL7 EU Medication Prescription and Dispense FHIR IG (**2.0.0**)
+- Added HL7 EU Medication Prescription and Dispense FHIR IG (**1.0.0**)
+
+#### MyHealth@EU Implementation Guides
+- Updated to the version 9.1.1
+
+
 ### From 0.1.0 to 0.2.0
 
 #### HL7 International Patient Summary FHIR IG
