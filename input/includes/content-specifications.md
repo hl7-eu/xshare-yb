@@ -20,6 +20,8 @@ Early implementers might be interested in
 |------|-------------|-------------|
 | <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Patient Summary FHIR IG (1.0.0-alpha)](https://hl7.eu/fhir/eps/xtehr/)
 |------|-------------|-------------|
+| <img src="care-plan.svg" alt="CarePlan icon" style="width:30px; vertical-align:middle;"> | CarePlan | [xShare Project CarePlan FHIR IG v 1.0.0](https://hl7.eu/fhir/ig/xshare-careplan)
+|------|-------------|-------------|
 | <img src="radiology.png" alt="Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Imaging Report](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | [HL7 EU Imaging Report FHIR IG (1.0.0-ballot)](https://hl7.eu/fhir/imaging)
 |------|-------------|-------------|
 | <img src="radiology.png" alt="Imaging Report icon" style="width:30px; vertical-align:middle;"> | [Imaging Study Manifest](https://x-bundles.ehr-exchange-format.eu/dir-content/content.html) | [IHE Manifest-based Access to DICOM Objects (MADO) v1.1](https://www.ihe.net/uploadedFiles/Documents/Radiology/IHE_RAD_Suppl_MADO.pdf)

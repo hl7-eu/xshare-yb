@@ -21,7 +21,7 @@ Usage: #definition
 
 // commenting out MyHealth@EU IG reference for now since it's not yet published
 * implementationGuide[+] = "http://fhir.ehdsi.eu/laboratory/ImplementationGuide/myhealth.eu.fhir.laboratory|9.1.1"
-* implementationGuide[+] = "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.mpd|1.0.0"
+* implementationGuide[+] = "http://hl7.eu/fhir/mpd/ImplementationGuide/hl7.fhir.eu.mpd|1.0.0"
 
 * document[+].mode = #consumer
 * document[=].profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Bundle-eu-lab"

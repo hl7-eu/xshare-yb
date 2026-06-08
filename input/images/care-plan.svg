@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CarePlan icon">
+  <rect x="13" y="9" width="38" height="49" rx="5" fill="#f7fbff" stroke="#1f2a33" stroke-width="3"/>
+  <path d="M24 8h16a5 5 0 0 1 5 5v4H19v-4a5 5 0 0 1 5-5z" fill="#9ed0f6" stroke="#1f2a33" stroke-width="3"/>
+  <circle cx="32" cy="9" r="4" fill="#ffffff" stroke="#1f2a33" stroke-width="3"/>
+  <path d="M25 29l4 4 9-10" fill="none" stroke="#2f9e44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M22 42h20" stroke="#1f2a33" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 50h14" stroke="#1f2a33" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="47" cy="43" r="11" fill="#ffd6dc" stroke="#9b1c31" stroke-width="3"/>
+  <path d="M47 36v14M40 43h14" stroke="#d62839" stroke-width="4" stroke-linecap="round"/>
+</svg>
