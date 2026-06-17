@@ -19,13 +19,13 @@ sprite $tSystem jar:archimate/technology-system-software
 
 
 rectangle "Business" as bus #Business
-rectangle "Application" as app #Application
 rectangle "Data" as data 
+rectangle "Application" as app #Application
 rectangle "Technology" as tech <<this>>#Technology 
 
-bus -right-> app
-app -right-> data
-data -right-> tech
+bus -right-> data
+data -right-> app
+app -right-> tech
 
 url of bus is [[business.html]]
 url of app is [[application.html]]
