@@ -1,9 +1,9 @@
 {
   "package-id" : "hl7.eu.fhir.xshare-yb",
-  "version" : "0.2.0",
-  "path" : "http://hl7.eu/fhir/ig/xshare-yb/0.2.0",
+  "version" : "0.3.0",
+  "path" : "http://hl7.eu/fhir/ig/xshare-yb/0.3.0",
   "status" : "trial-use",
   "sequence" : "Release 1",
   "mode": "milestone",  
-  "desc" : "XXXXXXXXXXXXXXXXXXXXX" 
+  "desc" : "xShare Yellow Button Implementation Guide, documenting the business, data, application, and technology viewpoints for sharing health data through the xShare Yellow Button."
 }
