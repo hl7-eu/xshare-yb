@@ -119,7 +119,9 @@ This version of the guide **does not specify** how **downloaded data** are store
 
 #### Generate SHL URI
 
-The xShare Yellow Button Provider generates a SMART Health Link URI.
+The xShare Yellow Button Provider generates a SMART Health Link Manifets URL and Payload.
+
+A SMART Health Link may be configured either as a short-lived sharing mechanism or, by using the L flag, as a long-term link whose manifest content may evolve over time. The L flag does not by itself define the expiry period; expiration can be indicated using exp, while actual link validity is enforced by the SHL Sharing Application / Resource Server.
 
 ##### Conformance
 

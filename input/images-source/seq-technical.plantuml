@@ -34,10 +34,20 @@ end group
 end opt
 
 opt 
-group One-time Share
+group One-time Share and Linked Options
 person -> xShare: generate link
 activate xShare
+
+opt
+group One-time Share
 xShare -[#blue]> xShare: <color:blue> [ [[ #generate-shl-uri generate SHL URI]] ]
+end group
+end opt
+opt
+group Linked Options
+xShare -> xShare: <color:blue> [ [[ #generate-shl-uri SHL generated]\n (flag set to L: long-term; exp specified)]] ]
+end group
+end opt
 return show link
 person -> Recipient: share link
 activate Recipient
@@ -49,20 +59,5 @@ deactivate Recipient
 end group
 end opt
 
-opt #e4e4e4
-group Linked Options (Not implemented in this version)
-person -> xShare: generate link
-activate xShare
-xShare -> xShare: [SHL generated]\n (flag L: long-term)
-return show link
-person -> Recipient: share link
-activate Recipient
-Recipient-> xShare: [get data from SHL]
-activate xShare
-xShare -> xShare: Updates Natural person's Health Data
-return Health Data
-deactivate Recipient
-end group
-end opt
 
 @enduml
