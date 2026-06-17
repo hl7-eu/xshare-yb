@@ -74,6 +74,8 @@ pages:
     title: Get Started with the xShare Yellow Button Download
   get-started-share.md:
     title: Get Started with the xShare Yellow Button One-time Share
+  get-started-linked.md:
+    title: Get Started with the xShare Yellow Button Linked Options
   conformance.md:
     title: Declare and Prove Your Conformance
   conf-statement.md:
@@ -116,6 +118,7 @@ menu:
   Get Started: 
     Download: get-started-down.html
     One-time Share: get-started-share.html
+    Linked Options: get-started-linked.html
   Business:
     Overview: business.html
     Labeling: labeling_process.html
