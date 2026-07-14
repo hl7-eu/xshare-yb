@@ -1,6 +1,8 @@
 |  | xBundle  | HL7 FHIR IG |
 |------|-------------|-------------|
-| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 International Patient Summary FHIR IG v2.0.0](https://hl7.org/fhir/uv/ips/)
+| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 International Patient Summary FHIR IG v2.0.1](https://hl7.org/fhir/uv/ips/)
+|------|-------------|-------------|
+| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Core](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Base and Core FHIR IG v2.0.0](https://hl7.eu/fhir/base/)
 |------|-------------|-------------|
 | <img src="experiment-results.png" alt="Laboratory Report icon" style="width:30px; vertical-align:middle;"> | [Laboratory Report](https://x-bundles.ehr-exchange-format.eu/lab-rpt-content/content.html) | [HL7 Europe Laboratory Report FHIR IG v2.0.0](http://hl7.eu/fhir/laboratory)
 |------|-------------|-------------| 
@@ -18,7 +20,7 @@ Early implementers might be interested in
 |------|-------------|-------------|
 | <img src="hospital.png" alt="Hospital Discharge Report icon" style="width:30px; vertical-align:middle;"> | [Hospital Discharge Report](https://x-bundles.ehr-exchange-format.eu/hdr-content/content.html) | [HL7 Europe Hospital Discharge Report FHIR IG (1.0.0-alpha)](https://hl7.eu/fhir/hdr/xtehr/)
 |------|-------------|-------------|
-| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Patient Summary FHIR IG (1.0.0-alpha)](https://hl7.eu/fhir/eps/xtehr/)
+| <img src="medical-app.png" alt="Patient Summary icon" style="width:30px; vertical-align:middle;"> | [Patient Summary](https://x-bundles.ehr-exchange-format.eu/ps-content/content.html) | [HL7 Europe Patient Summary FHIR IG (1.0.0-ballot)](https://hl7.eu/fhir/eps/)
 |------|-------------|-------------|
 | <img src="care-plan.svg" alt="CarePlan icon" style="width:30px; vertical-align:middle;"> | [CarePlan](https://x-bundles.ehr-exchange-format.eu/xb-4-cnt/content.html) | [xShare Project CarePlan FHIR IG (0.1.0)](https://hl7.eu/fhir/ig/xshare-careplan)
 |------|-------------|-------------|
