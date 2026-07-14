@@ -1,7 +1,8 @@
 Instance: capabilityStatement-yb-consumer
 InstanceOf: CapabilityStatement
 Title: "xShare Yellow Button Consumer Capability Statement"
-Description: "Defines the capabilities of an xShare Yellow Button Consumer, which can retrieve and interpret FHIR Document Bundles obtained via download or Smart Health Links."
+Description: """Defines the capabilities of an xShare Yellow Button Consumer, which can retrieve and interpret FHIR Bundles obtained via download or Smart Health Links.
+This doesn't exclude the capability of sharing as granular resources the information represented in the bundles, e.g. Immunizations, Allergies,..."""
 Usage: #definition
 
 * status = #draft
@@ -16,23 +17,25 @@ Usage: #definition
 
 
 * implementationGuide[+] = "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory|2.0.0"
-* implementationGuide[+] = "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|2.0.0"
+* implementationGuide[+] = "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|2.0.1"
 * implementationGuide[+] = "http://hl7.org/fhir/uv/smart-health-cards-and-links/ImplementationGuide/hl7.fhir.uv.smart-health-cards-and-links|1.0.0"
-
-// commenting out MyHealth@EU IG reference for now since it's not yet published
-* implementationGuide[+] = "http://fhir.ehdsi.eu/laboratory/ImplementationGuide/myhealth.eu.fhir.laboratory|9.1.1"
 * implementationGuide[+] = "http://hl7.eu/fhir/mpd/ImplementationGuide/hl7.fhir.eu.mpd|1.0.0"
+* implementationGuide[+] = "http://hl7.eu/fhir/mpd/ImplementationGuide/hl7.fhir.eu.base|2.0.0"
+
+// commenting out MyHealth@EU IG reference for now
+// * implementationGuide[+] = "http://fhir.ehdsi.eu/laboratory/ImplementationGuide/myhealth.eu.fhir.laboratory|9.1.1"
+
 
 * document[+].mode = #consumer
 * document[=].profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Bundle-eu-lab"
 * document[=].documentation = "The consumer can interpret or display EU Laboratory Report documents obtained via download or Smart Health Link."
 
 * document[+].mode = #consumer
-* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips|2.0.0"
+* document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips|2.0.1"
 * document[=].documentation = "The consumer can interpret or display IPS documents obtained via download or Smart Health Link."
 
 
-// commenting out MyHealth@EU IG reference for now since it's not yet published
-* document[+].mode = #consumer
+// commenting out MyHealth@EU IG reference for now
+/* * document[+].mode = #consumer
 * document[=].profile = "http://fhir.ehdsi.eu/laboratory/StructureDefinition/Bundle-lab-myhealtheu"
-* document[=].documentation = "The consumer can interpret or display MyHealth@EU lab reports obtained via download or Smart Health Link."
+* document[=].documentation = "The consumer can interpret or display MyHealth@EU lab reports obtained via download or Smart Health Link." */

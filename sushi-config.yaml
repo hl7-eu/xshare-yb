@@ -20,11 +20,12 @@ publisher:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.uv.ips: 2.0.0
+  hl7.fhir.uv.ips: 2.0.1
   hl7.fhir.uv.smart-health-cards-and-links: 1.0.0
   # hl7.fhir.eu.laboratory: current
   hl7.fhir.eu.laboratory: 2.0.0
-  hl7.fhir.eu.mpd: 1.0.0  
+  hl7.fhir.eu.mpd: 1.0.0
+  hl7.fhir.eu.base: 2.0.0   
   # commenting out MyHealth@EU IG reference for now since it's not yet published
   myhealth.eu.fhir.laboratory: 9.1.1
   
