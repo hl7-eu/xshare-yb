@@ -124,7 +124,7 @@ menu:
   Data: content.html
   Application: 
     Overview: application.html
-    Reference implementation: yb_components.html
+    Reference implementation: https://xshare-project.eu/?jet_download=c3023abae216561a67e3fc5e3e7e1661e975c4de
   Technology: 
     Overview: technical.html
     Artefacts: artifacts.html
