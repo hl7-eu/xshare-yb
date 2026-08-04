@@ -26,8 +26,8 @@ dependencies:
   hl7.fhir.eu.laboratory: 2.0.0
   hl7.fhir.eu.mpd: 1.0.0
   hl7.fhir.eu.base: 2.0.0   
-  # commenting out MyHealth@EU IG reference for now since it's not yet published
-  myhealth.eu.fhir.laboratory: 9.1.1
+  # commenting out MyHealth@EU IG reference for now
+  # myhealth.eu.fhir.laboratory: 9.1.1
   
 
 #
@@ -131,7 +131,7 @@ menu:
     Artefacts: artifacts.html
     Actors: actors.html
     Conformance: conformance.html    
-    Example Conformance Statement: conf-statement.html
+    Declaration of Conformity: https://forms.office.com/e/QBHxdknvEm
     Reference Tools: yb_tools.html  
   X-Bundle registry: https://x-bundles.ehr-exchange-format.eu/
   About: 

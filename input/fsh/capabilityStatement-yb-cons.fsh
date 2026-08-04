@@ -17,20 +17,36 @@ Usage: #definition
 
 
 * implementationGuide[+] = "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory|2.0.0"
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
 * implementationGuide[+] = "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|2.0.1"
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
 * implementationGuide[+] = "http://hl7.org/fhir/uv/smart-health-cards-and-links/ImplementationGuide/hl7.fhir.uv.smart-health-cards-and-links|1.0.0"
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #MAY
 * implementationGuide[+] = "http://hl7.eu/fhir/mpd/ImplementationGuide/hl7.fhir.eu.mpd|1.0.0"
-* implementationGuide[+] = "http://hl7.eu/fhir/mpd/ImplementationGuide/hl7.fhir.eu.base|2.0.0"
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
+* implementationGuide[+] = "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base|2.0.0"
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
 
 // commenting out MyHealth@EU IG reference for now
 // * implementationGuide[+] = "http://fhir.ehdsi.eu/laboratory/ImplementationGuide/myhealth.eu.fhir.laboratory|9.1.1"
 
 
-* document[+].mode = #consumer
+* document[+]
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
+* document[=].mode = #consumer
 * document[=].profile = "http://hl7.eu/fhir/laboratory/StructureDefinition/Bundle-eu-lab"
 * document[=].documentation = "The consumer can interpret or display EU Laboratory Report documents obtained via download or Smart Health Link."
 
-* document[+].mode = #consumer
+* document[+]
+  * extension[+].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+  * extension[=].valueCode = #SHOULD
+* document[=].mode = #consumer
 * document[=].profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips|2.0.1"
 * document[=].documentation = "The consumer can interpret or display IPS documents obtained via download or Smart Health Link."
 

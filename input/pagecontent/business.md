@@ -92,6 +92,6 @@ Natural persons share their health data (in the EEHRxF) from a health provider p
 
 ### How to label your product
 
-The process begins when an organisation needs to certify their health system with the EEHRxF. This step involves the initiation of a formal certification process aimed at ensuring that health systems or applications adhere to the standards and policies defined within the European Electronic Health Record Exchange Format (EEHRxF). At this stage, a decision arises, posing the question: "What is the level of certification needed?" The applicant must decide between two available paths based on the desired rigor of the certification: Level One (Self-assessment) or Level Two (Third-party assessment).
+The process begins when an organisation needs to certify their health system with the EEHRxF. This step involves the initiation of a formal certification process aimed at ensuring that health systems or applications adhere to the standards and policies defined within the European Electronic Health Record Exchange Format (EEHRxF). At this stage, a decision arises, posing the question: "What is the level of certification needed?" The applicant must decide between two available paths based on the desired rigor of the certification: Self-assessment (bronze level) or third-party evaluation (silver and gold).
 
-Details of this process are provided in the [xShare Button Labeling process](labeling_process.html) page.
+Details of this are provided in the [xShare Button Labeling process](labeling_process.html) page.
