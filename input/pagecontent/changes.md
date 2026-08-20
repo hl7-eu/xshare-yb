@@ -15,7 +15,6 @@
 
 #### New Additions
 - Added the *Get Started with the xShare Yellow Button Linked Options* page, describing how to implement and prove conformance with the Linked Option feature
-- Added this Change Log page
 
 #### Other Updates
 - Extended the Consumer and Provider Capability Statements to declare support for EU Core profiles and the Medication Prescription and Dispense IG
