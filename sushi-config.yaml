@@ -2,12 +2,12 @@ id: hl7.eu.fhir.xshare-yb
 canonical: http://hl7.eu/fhir/ig/xshare-yb # check if this may create issues
 name:  XshareYbIg
 title: xShare Project Yellow Button
-description: This guide documents the xShare Yellow BUtton for the xShare project.
+description: This guide documents the xShare Yellow Button for the xShare project.
 status: active # draft | active | retired | unknown
-version: 0.3.0-ci
+version: 0.3.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: trial-use # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: 	http://unstats.un.org/unsd/methods/m49/m49.htm#150 "Europe" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:

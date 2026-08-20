@@ -4,3 +4,14 @@
 
 Reference to deprecated ValueSet http://hl7.org/fhir/5.0/ValueSet/jurisdiction|5.0.0
 
+# Hyperlink scheme 'file'  not recognied
+
+TYPE_SPECIFIC_CHECKS_DT_XHTML_UNKNOWN_HREF
+
+# OID not assigned
+
+The resource ActorDefinition/actorDefinition-yb-consumer could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ActorDefinition/actorDefinition-yb-provider could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource CapabilityStatement/capabilityStatement-yb-consumer could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource CapabilityStatement/capabilityStatement-yb-provider could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+The resource ImplementationGuide/hl7.eu.fhir.xshare-yb could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

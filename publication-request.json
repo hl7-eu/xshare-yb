@@ -5,5 +5,6 @@
   "status" : "trial-use",
   "sequence" : "Release 1",
   "mode": "milestone",  
-  "desc" : "xShare Yellow Button Implementation Guide, documenting the business, data, application, and technology viewpoints for sharing health data through the xShare Yellow Button."
+  "desc" : "This version of the xShare Yellow Button IG (0.3.0) includes updated IG references, revised labeling and implementation details, improved capability statements, more details on Linked Options and general publication cleanup.",
+  "changes" : "changes.html"
 }

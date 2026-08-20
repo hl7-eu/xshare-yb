@@ -1,13 +1,27 @@
 
 
-### current build changes
+### From 0.2.0 to 0.3.0
+
+#### HL7 International Patient Summary FHIR IG
+- Updated from **v2.0.0** to **v2.0.1**
 
 #### HL7 Europe Implementation Guides
-- Updated HL7 EU Medication Prescription and Dispense FHIR IG (**2.0.0**)
-- Added HL7 EU Medication Prescription and Dispense FHIR IG (**1.0.0**)
+- Updated HL7 Europe Laboratory Report FHIR IG to **v2.0.0**
+- Added HL7 EU Medication Prescription and Dispense FHIR IG (**v1.0.0**)
+- Added HL7 Europe Base and Core FHIR IG / EU Core profiles (**v2.0.0**)
 
 #### MyHealth@EU Implementation Guides
-- Updated to the version 9.1.1
+- Updated reference to MyHealth@EU Laboratory Report FHIR IG to **v9.1.1** (not yet included as a formal dependency, pending its publication)
+
+#### New Additions
+- Added the *Get Started with the xShare Yellow Button Linked Options* page, describing how to implement and prove conformance with the Linked Option feature
+- Added this Change Log page
+
+#### Other Updates
+- Extended the Consumer and Provider Capability Statements to declare support for EU Core profiles and the Medication Prescription and Dispense IG
+- Updated conformance criteria to reference EU Core profiles as a supported content specification
+- Revised the labeling page
+- Replaced the *Reference implementation* menu link with the xShare project download page, and the *Example Conformance Statement* link with a Declaration of Conformity form
 
 
 ### From 0.1.0 to 0.2.0

@@ -69,7 +69,7 @@ To claim conformance with the xShare Yellow Button Linked Option, implementers m
 
 #### Prove Your Conformance
 
-To prove conformance to the *xShare Yellow Button One-time* as [*xShare Yellow Button Provider*](ActorDefinition-actorDefinition-yb-provider.html) you must:
+To prove conformance to the *xShare Yellow Button Linked Option* as [*xShare Yellow Button Provider*](ActorDefinition-actorDefinition-yb-provider.html) you must:
 
 1. Demonstrate that only authenticated Natural Persons can access the xShare Yellow Button Linked Option feature.
 1. Claim that user autentication is realized in conformance with the European Regulations
@@ -81,7 +81,7 @@ To prove conformance to the *xShare Yellow Button One-time* as [*xShare Yellow B
 
 ---
 
-To prove conformance to the *xShare Yellow Button One-time* as [*xShare Yellow Button Consumer*](ActorDefinition-actorDefinition-yb-consumer.html) you must:
+To prove conformance to the *xShare Yellow Button Linked Option* as [*xShare Yellow Button Consumer*](ActorDefinition-actorDefinition-yb-consumer.html) you must:
 
 1. Ensure that is able to process a valid Smart Health Link.
 1. Demonstrate that can accesses the content authorised for sharing (the SHL Manifest), available in the selected target format, for a configurable period of time.
